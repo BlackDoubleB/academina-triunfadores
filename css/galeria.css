@@ -1,0 +1,40 @@
+section{
+    margin-top: 70px !important;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+article{
+    /* width: 450px; */
+    max-width: 45%;
+    min-width: 500px;
+    margin-bottom: 10px;
+    /* text-align: justify; */
+}
+
+article p{
+    margin-top: 20px;
+}
+
+
+
+#img{
+    /* width: 100%; */
+    border-radius: 7px;
+    max-width: calc(100% - 30px);
+}
+
+@media screen and (max-width: 1252px) {
+    section {
+        justify-content: center;
+
+    }
+    article{
+        min-width: 100%;
+        
+    }
+
+}
